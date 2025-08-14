@@ -1,0 +1,27 @@
+# =================== DEPENDENCIAS PRINCIPALES ===================
+# Bot de Telegram
+pyTelegramBotAPI==4.14.0
+
+# Manejo de variables de entorno
+python-dotenv==1.0.0
+
+# Peticiones HTTP
+requests==2.31.0
+
+# =================== DEPENDENCIAS OPCIONALES ===================
+# Para mejor manejo de fechas (ya incluido en Python 3.7+)
+# python-dateutil==2.8.2
+
+# Para logging avanzado (opcional)
+# colorlog==6.7.0
+
+# =================== NOTAS DE INSTALACIÓN ===================
+# Instalar con: pip install -r requirements.txt
+#
+# Si tienes problemas con pyTelegramBotAPI, también puedes usar:
+# telebot==0.0.5
+#
+# Para entornos de producción, considera usar versiones fijas:
+# pyTelegramBotAPI==4.14.0
+# python-dotenv==1.0.0
+# requests==2.31.0
