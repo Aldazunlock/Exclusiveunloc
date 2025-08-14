@@ -19,9 +19,12 @@ requests==2.31.0
 # Instalar con: pip install -r requirements.txt
 #
 # Si tienes problemas con pyTelegramBotAPI, también puedes usar:
-# telebot==0.0.5
+ telebot==0.0.5
 #
 # Para entornos de producción, considera usar versiones fijas:
-# pyTelegramBotAPI==4.14.0
-# python-dotenv==1.0.0
-# requests==2.31.0
+python-dotenv==1.0.0
+requests==2.31.0
+python-telegram-bot==20.3  # Para bots (versión moderna)
+telethon==1.28.5  # Para interactuar con la API de Telegram (clientes/userbots)
+pyrogram==2.0.106  # Otra alternativa para la API de Telegram (async)
+requests==2.31.0  # Para llamadas HTTP a la API
