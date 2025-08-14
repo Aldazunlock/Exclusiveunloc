@@ -15,7 +15,7 @@ from telegram.error import TelegramError
 class Config:
     DB_FILE = "archivos.json"
     LOG_FILE = "bot.log"
-    TOKEN = os.getenv("TELEGRAM_TOKEN", "8295464002:AAE5pmgC_M3MHV1XSh2hCl_nvJ_g9wyMMvY")
+    TOKEN = os.getenv("TELEGRAM_TOKEN", "7988514338:AAF5_fH0Ud9rjciNPee2kqpmUUDx7--IUj0")
     ADMIN_ID = int(os.getenv("ADMIN_ID", "7655366089"))
     CANAL_ID = int(os.getenv("CANAL_ID", "-1002852080157"))
     MAX_MESSAGE_LENGTH = 4000
